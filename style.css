@@ -6,6 +6,14 @@
     grid-row: 1/8;
 }
 
+// Example using NSLayoutAnchor in Swift
+NSLayoutConstraint.activate([
+    cardView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+    cardView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+    cardView.widthAnchor.constraint(equalToConstant: 120),
+    cardView.heightAnchor.constraint(equalToConstant: 200)
+]) //
+
 
 .backgroundcolor { background-color: black}
 .bg-black{background-color: black}
